@@ -10,7 +10,7 @@
 - Embedded system projects.
 - IoT solutions involving sensor integration and remote monitoring.
 - Automation solutions using platforms like Power Automate.
-- 
+
 ### 📫 How to reach me:
 - Email: [farhanmohammadshaikh@gmail.com](mailto:farhanmohammadshaikh@gmail.com)
 - LinkedIn: [Farhan Mohammad Shaikh](https://www.linkedin.com/in/farhan-mohammad-shaikh)
