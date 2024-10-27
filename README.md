@@ -3,7 +3,7 @@
 👨‍💻 I’m a Master's student specializing in Microelectronics and Embedded Systems.  
 🔧 Passionate about embedded development, IoT solutions, and automation using low-code platforms.  
 💡 Currently exploring real-time operating systems like Zephyr RTOS and implementing LittleFS on NOR Flash memories.  
-🚀 Experienced in working with nRF52 microcontrollers, BLE technology, and integrating sensors for IoT applications.  
+🚀 Experienced in working with nRF52 microcontrollers, STM32, Arduino, BLE technology, and integrating sensors for IoT applications.  
 📚 Always eager to learn new technologies and contribute to open-source projects.
 
 ### 🤝 I’m looking to collaborate on:
