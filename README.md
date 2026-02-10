@@ -17,7 +17,7 @@ My core focus areas include:
 - Smart Sensors  
 - IoT telemetry architectures using MQTT  
 
-I work across both **microcontroller-based systems (nRF52, STM32)** and **Linux-based embedded platforms (Raspberry Pi)**, building complete solutions from hardware measurement to networked data streaming.
+I work across both **microcontroller-based systems (nRF52, STM32, ESP32)** and **Linux-based embedded platforms (Raspberry Pi)**, building complete solutions from hardware measurement to networked data streaming.
 
 ---
 
@@ -48,7 +48,7 @@ This project demonstrates system-level thinking: hardware validation, firmware r
 ### Embedded & Firmware
 - Embedded C (bare-metal & Linux)
 - Register-level peripheral access
-- I²C, UART, SPI communication
+- I²C, UART, SPI, CAN communication
 - Sensor interfacing & calibration
 - Power monitoring systems
 - Multi-byte data reconstruction & scaling
@@ -56,6 +56,7 @@ This project demonstrates system-level thinking: hardware validation, firmware r
 ### Platforms & Microcontrollers
 - nRF52 (Nordic Semiconductor)
 - STM32
+- ESP32
 - Raspberry Pi
 - Arduino (Prototyping)
 
