@@ -17,7 +17,7 @@ My core focus areas include:
 - Smart Sensors  
 - IoT telemetry architectures using MQTT  
 
-I work across both **microcontroller-based systems (nRF52, STM32, ESP32)** and **Linux-based embedded platforms (Raspberry Pi)**, building complete solutions from hardware measurement to networked data streaming.
+I work across both **microcontroller-based systems (STM32, nRF52, ESP32)** and **Linux-based embedded platforms (Raspberry Pi)**, building complete solutions from hardware measurement to networked data streaming.
 
 ---
 
