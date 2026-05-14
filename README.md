@@ -1,97 +1,141 @@
-# Farhan Mohammad Shaikh  
-**Embedded Systems & IoT Engineer**  
-Master’s Student in Microelectronics & Embedded Systems  (TUHH)
-📍 Germany  
+# Farhan Mohammad Shaikh
+
+## Embedded Firmware & Embedded Linux Engineer
+
+M.Sc. student in Microelectronics and Microsystems at TUHH (Germany) with hands-on experience in embedded firmware, Embedded Linux, RTOS-based systems, and low-level hardware/software integration.
+
+Focused on building reliable embedded systems using C on STM32, nRF52, and Linux-based platforms, with practical experience in driver development, telemetry systems, debugging, and real-time communication architectures.
 
 ---
 
-## About Me
+## Core Areas
 
-I design and build embedded systems that connect real-world electrical signals to scalable digital architectures.
-
-My core focus areas include:
-
-- Low-level firmware development in C  
-- Hardware-software integration  
-- Real-time data acquisition  
-- Smart Sensors  
-- IoT telemetry architectures using MQTT  
-
-I work across both **microcontroller-based systems (STM32, nRF52, ESP32)** and **Linux-based embedded platforms (Raspberry Pi)**, building complete solutions from hardware measurement to networked data streaming.
+- Embedded C/C++ firmware development
+- Embedded Linux integration (Yocto, systemd, Device Tree)
+- Linux device driver development
+- RTOS-based system design (FreeRTOS, Zephyr)
+- Hardware-software integration
+- Sensor interfacing and telemetry systems
+- Real-time communication and debugging
 
 ---
 
-## 🔬 Featured Project
+## Featured Project
 
-### 🔌 Multi-Rail Power Monitoring System (PAC194x + Raspberry Pi)
+### Embedded Power Gateway (Yocto + PAC1944 + MQTT)
 
-**Tech Stack:** Embedded C • Linux I²C (`i2c-dev`) • MQTT (Mosquitto, Paho)
+Custom Embedded Linux power monitoring system built on Raspberry Pi using a Yocto-generated Linux image.
 
-- Implemented register-level communication with PAC194x power monitor ICs
-- Reconstructed multi-byte big-endian register data
-- Converted raw ADC values into calibrated voltage, current, and power
-- Validated measurements using shunt resistors and multimeter cross-checks
-- Streamed telemetry over MQTT in JSON format
-- Designed scalable topic-based architecture for IoT dashboards
+#### Key Features
 
-**Monitored Rails:**
-- 3.3 V  
-- 1.2 V  
-- 5 V  
+- Developed PAC1944 I2C communication at both userspace and Linux kernel driver level
+- Integrated custom Device Tree overlays for hardware configuration
+- Built and deployed a custom Yocto Linux image with systemd service integration
+- Implemented MQTT-based telemetry pipeline using Mosquitto
+- Developed live monitoring dashboard using Node-RED
+- Implemented LED control and remote command handling over MQTT
+- Performed low-level debugging using GDB, journalctl, strace, oscilloscope, and logic analyzer
 
-This project demonstrates system-level thinking: hardware validation, firmware reliability, and scalable communication design.
+#### Technologies
+
+`C` `Yocto` `Embedded Linux` `Linux Device Driver` `I2C` `MQTT` `Node-RED` `systemd` `Device Tree` `Raspberry Pi`
+
+🔗 Repository:  
+https://github.com/Farhan-mohammad-shaikh/embedded-power-gateway
 
 ---
 
-## 🛠 Technical Skills
+## Other Projects
 
-### Embedded & Firmware
-- Embedded C (bare-metal & Linux)
-- Register-level peripheral access
-- I²C, UART, SPI, CAN communication
-- Sensor interfacing & calibration
-- Power monitoring systems
-- Multi-byte data reconstruction & scaling
+### STM32 Secure Bootloader
 
-### Platforms & Microcontrollers
-- nRF52 (Nordic Semiconductor)
+- Developed bare-metal STM32 bootloader in Embedded C
+- Implemented CRC-based firmware validation
+- Designed UART firmware update mechanism with Python host tool
+- Implemented flash memory layout and vector table relocation
+
+🔗 Repository:  
+https://github.com/Farhan-mohammad-shaikh/stm32-secure-bootloader-crc
+
+---
+
+### Radiation-Based NOR Flash Evaluation (DLR Collaboration)
+
+Master’s research project focused on COTS NOR flash reliability evaluation under radiation exposure for space applications.
+
+- Developed firmware for SPI NOR flash anomaly detection
+- Worked with iCE40 FPGA-based system
+- Contributed to payload qualification for DLR satellite integration
+
+---
+
+## Technical Skills
+
+### Programming
+- C
+- C++
+- Python
+
+### Embedded Firmware
 - STM32
-- ESP32
+- nRF52
+- Bootloader development
+- Interrupt-driven systems
+- Memory mapping
+- Peripheral interfacing
+
+### Embedded Linux
+- Yocto
+- BitBake
+- systemd
+- Device Tree
+- Linux Device Drivers
 - Raspberry Pi
-- Arduino (Prototyping)
 
-### IoT & Communication
-- MQTT (Mosquitto, Paho)
-- BLE (Bluetooth Low Energy)
-- Real-time telemetry streaming
-- Remote command handling architectures
-
-### Storage & RTOS
-- Zephyr RTOS (Exploring)
+### RTOS
 - FreeRTOS
-- LittleFS on NOR Flash
+- Zephyr
+
+### Interfaces & Connectivity
+- SPI
+- I2C
+- UART
+- CAN
+- MQTT
+- Ethernet
+- WiFi
+
+### Debugging & Tools
+- GDB
+- journalctl
+- strace
+- JTAG/SWD
+- Oscilloscope
+- Logic Analyzer
+- Git
+- CMake
+- Make
+- GitHub Actions
 
 ---
 
-## Current Focus
+## Currently Interested In
 
-- Real-time embedded data acquisition systems
-- Power electronics monitoring
-- MQTT-based IoT telemetry pipelines
-- RTOS-based firmware architecture
-
----
-
-## Open To
-
-- Embedded firmware development roles  
-- IoT system engineering  
-- Hardware-software integration projects  
-- Power monitoring & measurement systems  
+- Embedded Linux
+- Linux driver development
+- Firmware architecture
+- Real-time telemetry systems
+- BSP and low-level integration
+- Industrial and sensor-based embedded systems
 
 ---
 
-##  Contact
+## Contact
 
-📧 farhanmohammadshaikh@gmail.com  
-🔗 LinkedIn: Farhan Mohammad Shaikh   
+📧 farhanmohammadshaikh@gmail.com
+
+🔗 LinkedIn  
+https://linkedin.com/in/Farhan-Mohammad-Shaikh
+
+🔗 GitHub  
+https://github.com/Farhan-mohammad-shaikh
